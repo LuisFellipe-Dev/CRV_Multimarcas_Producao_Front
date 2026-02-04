@@ -1,0 +1,75 @@
+.Form{
+    min-height: 150px;
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.301);
+}
+.Mode{
+    display: flex;
+    div:nth-child(1){
+        width: 50%;
+        text-align: center;
+        border-top-left-radius: 20px;
+    }
+    div:nth-child(2){
+        width: 50%;
+        text-align: center;
+        border-top-right-radius: 20px;
+    }
+    div:hover{
+        transition: 500ms;
+        background-color: rgb(200, 200, 200);
+        cursor: pointer;
+    }
+}
+.List{
+    min-height: 150px;
+    width: 65%;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.301);
+    table{
+        width: 100%;
+        table-layout: fixed;
+        padding: 30px;
+        th, td{
+            width: 25%;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        th:nth-child(1), td:nth-child(1){
+            width: 15%;
+        }
+        th:nth-child(3), td:nth-child(3){
+            width: 15%;
+        }
+        th:nth-child(5), td:nth-child(5){
+            width: 10%;
+        }
+        tbody{
+            tr{
+                max-height: 45px;
+            }
+            td{
+                max-height: 25px;
+            }
+        }
+
+    }
+}
+
+.Icons{
+    height: 25px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.Icons:hover{
+    cursor: pointer;
+}

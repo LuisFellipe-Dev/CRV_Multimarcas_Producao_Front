@@ -1,0 +1,30 @@
+.List{
+    min-height: 150px;
+    width: 65%;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.301);
+    table{
+        width: 100%;
+        table-layout: fixed;
+        padding: 30px;
+        th, td{
+            width: 25%;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.Icons{
+    height: 25px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.Icons:hover{
+    cursor: pointer;
+}
