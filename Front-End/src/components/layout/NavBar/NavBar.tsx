@@ -6,8 +6,8 @@ function NavBar(){
     return(
         <header className={styles.NavBar}>
             <div>
-                <a href='#'><img className={styles.Logo} src='/img/LOGO.png'/></a>
-                <a href='#'><img className={styles.Nome} src='/img/NOME.png'/></a>
+                <a href='#'><img className={styles.Logo} src='/img/logo.png'/></a>
+                <a href='#'><img className={styles.Nome} src='/img/nome.png'/></a>
             </div>
             <div>
                 <nav>

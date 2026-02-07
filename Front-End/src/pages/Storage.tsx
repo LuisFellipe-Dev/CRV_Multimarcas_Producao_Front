@@ -103,7 +103,7 @@ function Storage(){
                                 <td>{item.Description}</td>
                                 <td>
                                     <img className={styles.Icons} 
-                                    src='/img/DELETE.png' onClick={() => {deleteItem(item.id)}}
+                                    src='/img/delete.png' onClick={() => {deleteItem(item.id)}}
                                     />
                                 </td>
                             </tr>

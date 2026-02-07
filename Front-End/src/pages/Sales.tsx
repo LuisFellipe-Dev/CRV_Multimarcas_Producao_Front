@@ -57,7 +57,7 @@ function Sales(){
                                 <td>{new Date(sale.Date + 'T00:00:00').toLocaleDateString('pt-BR')}</td>
                                 <td>
                                     <img className={styles.Icons} 
-                                    src='/img/DELETE.png' onClick={() => deleteSale(sale.id)}
+                                    src='/img/delete.png' onClick={() => deleteSale(sale.id)}
                                     />
                                 </td>
                             </tr>

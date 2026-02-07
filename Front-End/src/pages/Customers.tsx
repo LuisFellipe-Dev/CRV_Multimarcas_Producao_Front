@@ -120,7 +120,7 @@ function Customers(){
                                 <td>R${customer.Debt}</td>
                                 <td>
                                     <img className={styles.Icons} 
-                                    src="/img/EDIT.png" onClick={() => {
+                                    src="/img/edit.png" onClick={() => {
                                         setMode(false)
                                         setFormSearch({
                                             Name: customer.Name,
@@ -132,7 +132,7 @@ function Customers(){
                                     }}
                                     />
                                     <img className={styles.Icons} 
-                                        src="/img/DELETE.png" onClick={() => disableCustomers(customer.id)}
+                                        src="/img/delete.png" onClick={() => disableCustomers(customer.id)}
                                     />
                                 </td>
                             </tr>

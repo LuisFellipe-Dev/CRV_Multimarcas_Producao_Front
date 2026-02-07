@@ -81,7 +81,7 @@ function Cashflow(){
                                     <td>{new Date(cashFlow.Date + 'T00:00:00').toLocaleDateString('pt-BR')}</td>
                                     <td>
                                         <img className={styles.Icons} 
-                                            src='/img/DELETE.png' onClick={() => deleteCashFlow(cashFlow.id)}
+                                            src='/img/delete.png' onClick={() => deleteCashFlow(cashFlow.id)}
                                         />
                                     </td>
                                 </tr>
