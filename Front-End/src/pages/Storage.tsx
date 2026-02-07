@@ -7,7 +7,7 @@ import { useVerify } from '../hooks/useVerify'
 import Form from '../components/layout/FormItens'
 import NavBar from '../components/layout/NavBar/NavBar'
 
-import DELETE from '../img/DELETE.png'
+import DELETE from '/img/DELETE.png'
 import styles from './Storage.module.css'
 
 function Storage(){

@@ -8,7 +8,7 @@ import { useVerify } from "../hooks/useVerify"
 import Form from '../components/layout/FormCashFlow'
 import NavBar from "../components/layout/NavBar/NavBar"
 
-import DELETE from '../img/DELETE.png'
+import DELETE from '/img/DELETE.png'
 import styles from './Cashflow.module.css'
 
 function Cashflow(){

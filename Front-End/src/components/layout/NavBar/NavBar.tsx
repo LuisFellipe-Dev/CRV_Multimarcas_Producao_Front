@@ -1,5 +1,5 @@
-import LOGO from '../../../img/LOGO.png'
-import NOME from '../../../img/NOME.png'
+import LOGO from '/img/LOGO.png'
+import NOME from '/img/NOME.png'
 
 import styles from './NavBar.module.css'
 

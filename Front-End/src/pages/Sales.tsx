@@ -6,7 +6,7 @@ import { useVerify } from "../hooks/useVerify"
 import NavBar from "../components/layout/NavBar/NavBar"
 import Form from "../components/layout/FormSales"
 
-import DELETE from '../img/DELETE.png'
+import DELETE from '/img/DELETE.png'
 import styles from "./Sales.module.css"
 
 function Sales(){
