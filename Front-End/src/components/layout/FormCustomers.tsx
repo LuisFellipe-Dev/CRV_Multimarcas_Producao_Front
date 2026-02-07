@@ -46,7 +46,7 @@ function FormCustomers({formSearch, setFormSearch, handleSearch, mode, edit, loa
             </div>
             <div className={styles.Button}>
                 <div>
-                    <span>Clientes Encontrados: {customers.length - 1}</span>
+                    <span>Clientes Encontrados: {customers.length}</span>
                 </div>
                 <div>
                     <button type="button" 
