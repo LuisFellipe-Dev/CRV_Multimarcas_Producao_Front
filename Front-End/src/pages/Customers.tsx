@@ -6,8 +6,6 @@ import { useVerify } from "../hooks/useVerify"
 import Form from '../components/layout/FormCustomers'
 import NavBar from "../components/layout/NavBar/NavBar"
 
-import DELETE from "/img/DELETE.png"
-import EDIT from "/img/EDIT.png"
 import styles from './Costumers.module.css'
 
 function Customers(){
@@ -122,7 +120,7 @@ function Customers(){
                                 <td>R${customer.Debt}</td>
                                 <td>
                                     <img className={styles.Icons} 
-                                    src={EDIT} onClick={() => {
+                                    src="/img/EDIT.png" onClick={() => {
                                         setMode(false)
                                         setFormSearch({
                                             Name: customer.Name,
@@ -134,7 +132,7 @@ function Customers(){
                                     }}
                                     />
                                     <img className={styles.Icons} 
-                                        src={DELETE} onClick={() => disableCustomers(customer.id)}
+                                        src="/img/DELETE.png" onClick={() => disableCustomers(customer.id)}
                                     />
                                 </td>
                             </tr>

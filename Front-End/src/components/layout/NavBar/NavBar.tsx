@@ -1,6 +1,3 @@
-import LOGO from '/img/LOGO.png'
-import NOME from '/img/NOME.png'
-
 import styles from './NavBar.module.css'
 
 import {Link} from 'react-router-dom'
@@ -9,8 +6,8 @@ function NavBar(){
     return(
         <header className={styles.NavBar}>
             <div>
-                <a href='#'><img className={styles.Logo} src={LOGO}/></a>
-                <a href='#'><img className={styles.Nome} src={NOME}/></a>
+                <a href='#'><img className={styles.Logo} src='/img/LOGO.png'/></a>
+                <a href='#'><img className={styles.Nome} src='/img/NOME.png'/></a>
             </div>
             <div>
                 <nav>

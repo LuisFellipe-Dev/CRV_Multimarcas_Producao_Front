@@ -8,7 +8,6 @@ import { useVerify } from "../hooks/useVerify"
 import Form from '../components/layout/FormCashFlow'
 import NavBar from "../components/layout/NavBar/NavBar"
 
-import DELETE from '/img/DELETE.png'
 import styles from './Cashflow.module.css'
 
 function Cashflow(){
@@ -82,7 +81,7 @@ function Cashflow(){
                                     <td>{new Date(cashFlow.Date + 'T00:00:00').toLocaleDateString('pt-BR')}</td>
                                     <td>
                                         <img className={styles.Icons} 
-                                            src={DELETE} onClick={() => deleteCashFlow(cashFlow.id)}
+                                            src='/img/DELETE.png' onClick={() => deleteCashFlow(cashFlow.id)}
                                         />
                                     </td>
                                 </tr>

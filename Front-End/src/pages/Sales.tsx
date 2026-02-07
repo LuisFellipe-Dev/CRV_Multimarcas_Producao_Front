@@ -6,7 +6,6 @@ import { useVerify } from "../hooks/useVerify"
 import NavBar from "../components/layout/NavBar/NavBar"
 import Form from "../components/layout/FormSales"
 
-import DELETE from '/img/DELETE.png'
 import styles from "./Sales.module.css"
 
 function Sales(){
@@ -58,7 +57,7 @@ function Sales(){
                                 <td>{new Date(sale.Date + 'T00:00:00').toLocaleDateString('pt-BR')}</td>
                                 <td>
                                     <img className={styles.Icons} 
-                                    src={DELETE} onClick={() => deleteSale(sale.id)}
+                                    src='/img/DELETE.png' onClick={() => deleteSale(sale.id)}
                                     />
                                 </td>
                             </tr>

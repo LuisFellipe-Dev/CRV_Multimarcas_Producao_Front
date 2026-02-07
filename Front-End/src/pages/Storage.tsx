@@ -7,7 +7,6 @@ import { useVerify } from '../hooks/useVerify'
 import Form from '../components/layout/FormItens'
 import NavBar from '../components/layout/NavBar/NavBar'
 
-import DELETE from '/img/DELETE.png'
 import styles from './Storage.module.css'
 
 function Storage(){
@@ -104,7 +103,7 @@ function Storage(){
                                 <td>{item.Description}</td>
                                 <td>
                                     <img className={styles.Icons} 
-                                    src={DELETE} onClick={() => {deleteItem(item.id)}}
+                                    src='/img/DELETE.png' onClick={() => {deleteItem(item.id)}}
                                     />
                                 </td>
                             </tr>
